@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;1,500;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,4 +7,9 @@
 * {
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  @apply font-barlow;
 }
