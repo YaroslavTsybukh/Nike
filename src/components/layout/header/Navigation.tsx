@@ -1,13 +1,13 @@
-const navMenu = ['Home', 'Collection', 'About', 'Contact']
+const navMenu = ['Admin', 'Collection', 'About', 'Contact']
 
 export const Navigation = () => {
     return (
         <nav>
-            <ul className='pt-60px flex flex-row'>
+            <ul className='flex flex-row pt-60px'>
                 {navMenu.map((menuItem) => (
                     <li
                         key={menuItem}
-                        className='text-dim-grey mr-80px cursor-pointer text-lg font-medium hover:text-white hover:duration-500'>
+                        className='mr-80px cursor-pointer text-lg font-medium text-dim-grey hover:text-white hover:duration-500'>
                         {menuItem}
                     </li>
                 ))}
