@@ -1,7 +1,7 @@
-import { IDataImages } from '../../../../shared/dataImages.interface.ts'
+import { IDataFromServer } from '../../../../shared/dataFromServer.interface.ts'
 import { VideoItem } from './VideoItem.tsx'
 interface IImagesProps {
-    data: IDataImages[]
+    data: IDataFromServer[]
     currentIdx: number
     setCurrentIdx: (value: number) => void
 }

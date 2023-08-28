@@ -7,7 +7,7 @@ export const Home = () => {
         <Layout>
             <section>
                 <div className='container mx-auto px-4'>
-                    <div className='ml-[141px]'>
+                    <div className='ml-[141px] mt-[110px]'>
                         <InfoBlock />
                         <Carousel />
                     </div>

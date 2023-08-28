@@ -1,6 +1,6 @@
 export const InfoBlock = () => {
     return (
-        <div className='mt-[110px] max-w-[528px]'>
+        <div className='max-w-[528px]'>
             <h1 className='text-2xl font-black text-white'>AIR MAX</h1>
             <p className='text-xl font-medium italic text-white'>
                 NIKE AIR MAX 90
